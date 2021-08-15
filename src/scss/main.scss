@@ -1,0 +1,11 @@
+// main
+@import './1-helper/variables';
+@import './1-helper/root';
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+// Add custom code after this
+@import './1-helper/bs-mod';
+@import './3-layout/header';
