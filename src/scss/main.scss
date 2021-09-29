@@ -1,11 +1,21 @@
 // main
-@import './1-helper/variables';
-@import './1-helper/root';
-// Custom.scss
-// Option A: Include all of Bootstrap
 
-@import '../../node_modules/bootstrap/scss/bootstrap';
+// helpers
+@use "./1-helper/variables";
+@use "./4-module/bs-colors";
+
+// Custom.scss
+
+@use "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
 // Add custom code after this
-@import './1-helper/bs-mod';
-@import './3-layout/header';
+// base
+@use "./2-base/reset";
+
+// layout
+@use "./3-layout/header";
+@use "./3-layout/hero";
+@use "./3-layout/footer";
+
+// module
+@use "./4-module/navbar";
