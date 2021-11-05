@@ -1,5 +1,5 @@
 {
-  "name": "Starter_File",
+  "name": "starter_file",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "md-css": "cd pub/assets && mkdir css",
     "md-img": "cd pub/assets && mkdir images",
     "md-sparty": "cd pub/assets && mkdir secondparty",
-    "md-sparty": "cd pub/assets && mkdir secondparty",
+    "md-src-sparty": "cd src/assets && mkdir secondparty",
     "md-bs": "cd pub/assets/secondparty && mkdir bootstrap",
     "cp-html": "cp -r ./src/*.html ./pub",
     "cp-css": "cp -r ./src/assets/css/*.* ./pub/assets/css",
