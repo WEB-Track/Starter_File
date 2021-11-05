@@ -10267,11 +10267,6 @@ template {
   display: none;
 }
 
-.header-wrapper {
-  display: flex;
-  justify-content: center;
-}
-
 .navbar--container {
   margin-right: 20rem;
 }
